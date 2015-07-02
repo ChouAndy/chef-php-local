@@ -1,0 +1,5 @@
+include_recipe 'selinux::permissive'
+include_recipe 'apt'
+include_recipe 'curl'
+include_recipe 'git'
+include_recipe 'nodejs'
